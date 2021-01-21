@@ -12,7 +12,12 @@ const Header = (props) => {
         </div>
         <div className="callToActions">
           <ul>
-            <Link to="/registration">Register Now</Link>
+            <li>
+              <Link to="/registration">Register Now</Link>
+            </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
           </ul>
         </div>
       </div>
